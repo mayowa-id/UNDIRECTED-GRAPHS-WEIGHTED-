@@ -2,7 +2,8 @@
 
 An undirected Graph can e defined as a kind of Graph in which the node connecttions (Edges) do not have directions assigned to them. 
 
-This codebasde however adds the weighted edges functionality to the graphs.
+This codebase implements the feature of weighted edges foor it's graphs, i.e the 
+weight of the edge(int) between two Nodes in the Tree taken into accojnt as a property of an object of the Node class.
 
 The following are characteristics of Undirected Graphs: 
 1. An undirected graph may contain loops, which are edges that connect a vertex to itself.
