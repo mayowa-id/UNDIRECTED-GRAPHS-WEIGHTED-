@@ -1,6 +1,8 @@
-# UNDIRICTED-GRAPHS
+# UNDIRECTED-GRAPHS
 
 An undirected Graph can e defined as a kind of Graph in which the node connecttions (Edges) do not have directions assigned to them. 
+
+This codebasde however adds the weighted edges functionality to the graphs.
 
 The following are characteristics of Undirected Graphs: 
 1. An undirected graph may contain loops, which are edges that connect a vertex to itself.
