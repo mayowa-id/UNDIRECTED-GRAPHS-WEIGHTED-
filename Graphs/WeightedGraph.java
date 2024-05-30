@@ -101,6 +101,7 @@ myQueue.add(new NodeEntry(edge.to, newDistance));
 }
 return distances.get(nodes.get(to));
 }
+    //DIJKSTRA'S ALGORITHM
     public Path getShortestPath(String from,String to, int weight ){
       var toNode = nodes.get(to);
         Map<Node, Integer> distances = new HashMap<>();
