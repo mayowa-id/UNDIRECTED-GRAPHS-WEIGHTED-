@@ -18,6 +18,14 @@ Real life applications of Undirected Graphs include:
 2.  Undirected graphs can also be used in traffic flow optimization to model the flow of vehicles on road networks.
 3.  Undirected graphs can as well be used in Website analysis to analyze the links between web pages on the internet. Each web page is represented by a vertex, and each link between web pages is represented by an edge.
 
+DIJKSTRA'S ALGORITM--
+Dijkstra's algorithm makes use of depth first traversal to find the shortest path between two nodes in a weighted graphs.
+This algorithm was created and published by Dr. Edsger W. Dijkstra, Dutch computer scientist and software engineer.
+The idea behind Dijkstra's Algorithm basically is to start at the Node that you choose (the source node) and it analyzes the graph to find the shortest path between that node and all the other nodes in the graph.
+The algorithm keeps track of the currently known shortest distance from each node to the source node and it updates these values if it finds a shorter path.
+Once the algorithm has found the shortest path between the source node and another node, that node is marked as "visited" and added to the path.
+The process continues until all the nodes in the graph have been added to the path. This way, we have a path that connects the source node to all other nodes following the shortest path possible to reach each node.
+This algorithm is used in GPS applications to find the shortest path from your location to your destination
 
 PRIM'S ALGORITHM--
 Prim's algorithm is a good example of a 'Greedy algorithm' because it looks fro the best/cheapest way scenario at every step along the way.
