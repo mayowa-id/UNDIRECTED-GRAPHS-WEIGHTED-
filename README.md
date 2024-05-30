@@ -17,3 +17,11 @@ Real life applications of Undirected Graphs include:
 1. Undirected graphs can be used to model social networks where User accounts are represented by nodes and the connections between them are represented by edges.
 2.  Undirected graphs can also be used in traffic flow optimization to model the flow of vehicles on road networks.
 3.  Undirected graphs can as well be used in Website analysis to analyze the links between web pages on the internet. Each web page is represented by a vertex, and each link between web pages is represented by an edge.
+
+
+PRIM'S ALGORITHM--
+Prim's algorithm is a good example of a 'Greedy algorithm' because it looks fro the best/cheapest way scenario at every step along the way.
+The idea behind implementing the minimum spanning Tree is to maintain two sets of Nodes. 
+The first set contains the Nodes already included in the minimum spanning Tree, and the other set contains the Nodes not yet included. 
+At every step along the way, it considers all the edges that connect the two sets (The last added Node to the minimum spanning Tree and one of hter connected Nodes nto yet part of the minimum spanning Tree) and picks the minimum weight edge from these edges(In this code base, a priority queue is used to achieve this). 
+After picking the minimum weighted edge, it moves the connected Node by this edge and adds to the set of the minimum spanning Tree.
